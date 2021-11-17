@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!---->
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/0f70727c92.js" crossorigin="anonymous"></script>
+    <!---->
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Krono Records</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header p-4 d-flex justify-content-between justify-content-md-center align-items-center bg-black">
+      <img src="img/logo.png" alt="" class="logo" style="height: 90px;">
+
+      
+      <nav class="navbar navbar-dark bg-black d-md-none">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header d-flex align-items-start">
+          <div class="menu-links d-flex flex-column">
+            <a href="#" class="menu-links link-light text-decoration-none hover-effect"><h3>Home</h3></a>
+            <a href="pages/services.html" class="menu-links link-light text-decoration-none hover-effect"><h3>Services</h3></a>
+            <a href="pages/portfolio.html" class="menu-links link-light text-decoration-none hover-effect"><h3>Portfolio</h3></a>
+            <a href="pages/about-us.html" class="menu-links link-light text-decoration-none hover-effect"><h3>About us</h3></a>
+            <a href="pages/contact.html" class="menu-links link-light text-decoration-none hover-effect"><h3>Contact</h3></a>
+          </div>
+          <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+      </div>
+    </header>
+    <!---->
+
+    <!--NavBar-->
+    <nav class="navbar-nav bg-dark d-none d-md-block">
+      <div class="nav-links d-flex justify-content-center p-2">
+        <a href="#" class="link-light text-decoration-none mx-3 hover-effect">Home</a>
+        <a href="pages/services.html" class="link-light text-decoration-none mx-3 hover-effect">Services</a>
+        <a href="pages/portfolio.html" class="link-light text-decoration-none mx-3 hover-effect">Portfolio</a>
+        <a href="pages/about-us.html" class="link-light text-decoration-none mx-3 hover-effect">About us</a>
+        <a href="pages/contact.html" class="link-light text-decoration-none mx-3 hover-effect">Contact</a>
+      </div>
+    </nav>
+    <!---->
+
+
+    <!--Cover Page-->
+    <main class="container-fluid bg-black d-flex flex-column justify-content-center align-items-center text-light p-0">
+      <div class="img-container container-fluid h-50 p-0 d-md-none">
+        <img src="img/cover-background.jpg" alt="" class="cover-img p-0">
+      </div>
+      <div class="cover-text d-flex flex-column justify-content-center align-items-center p-4">
+        <h1 class="display-4 fw-bold m-md-3">Krono Records</h1>
+        <h5 class="m-md-2 text-center">Sound Design & Music Composition</h5>
+      </div>
+    </main>
+    <!---->
+
+
+    <!--What we do-->
+    <section class="main-info container-fluid px-4 py-3 bg-black text-light">
+      <div class="row align-items-md-center p-md-5 text-md-center justify-content-md-center">
+        <div class="col-md-5 main-text d-md-flex flex-column align-items-center">
+          <h4 class="h1 fw-bold">What we do?</h4>
+          <p class="my-md-4">From composing music for video games and film, to designing sound effects, ambiences & soundscapes, audio branding and more. We offer a wide range of freelance music & audio services.</p>
+          <a class="btn btn-contact border-white bg-transparent rounded-pill px-4 py-3 my-2 text-decoration-none text-light" href="pages/contact.html">Be in contact</a>
+        </div>
+        
+        <div class="col-md-5 main-logo d-none d-md-inline d-md-flex justify-content-md-center p-md-5">
+          <img src="img/logo.png" alt="" class="w-50">
+        </div>
+      </div>
+
+    </section>
+    <!---->
+
+    <!--Carousel mobile-->
+    <div id="carouselIndicators" class="carousel slide bg-black py-3 d-lg-none" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Nn7XfT8dl7E?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100"></iframe>
+        </div>
+        <div class="carousel-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/_Nw56_h2ot4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100"></iframe>
+        </div>
+        <div class="carousel-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZvAtXmmtG00?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100"></iframe>
+        </div>
+        <div class="carousel-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MU-EBwMbBho?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100"></iframe>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!---->
+
+    <!--Portfolio grid-->
+    <div class="container-fluid d-none d-lg-block bg-black py-md-5 my-5">
+      <div class="d-flex flex-column mx-5">
+        <div class="top-videos d-flex justify-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Nn7XfT8dl7E?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="p-1"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_Nw56_h2ot4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="p-1"></iframe> 
+        </div>
+        <div class="bottom-videos d-flex justify-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZvAtXmmtG00?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="p-1"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MU-EBwMbBho?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="p-1"></iframe>
+        </div>     
+      </div>
+    </div>
+    <!---->
+
+
+
+
+    <!--Footer-->
+    <footer class="container-fluid">
+      <div class="row bg-black">
+        <div class="col-md-6 order-2 order-md-1 d-flex justify-content-center align-items-center my-4 my-md-4">
+          <h6 class="text-light fw-normal">©2021 by Krono Records.</h6>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 d-flex justify-content-center align-items-center mt-4 my-md-4">
+          <a href="https://www.instagram.com/kronorecords/" target="_blank" class="text-light text-decoration-none mx-3 hover-effect"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCA-ih2Xc00HDkqvnDmVLMCA" target="_blank" class="text-light text-decoration-none mx-3 hover-effect"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/ignaciojsoler/" target="_blank" class="text-light text-decoration-none mx-3 hover-effect"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!---->
+
+
+    <!--Scripts-->
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!---->
+    <!--JS-->
+    <script src="script/parallax-scrolling.js"></script>
+    <!---->
+</body>
+</html>
